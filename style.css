@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    /* background-color: blue; */
+    justify-content: center;
+    min-width: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.container {
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 10px; 
+    /* min-width: 200px; */
+    transition: 0.5s ease-in-out ;
+}
+
+button {
+    margin-top: 8px;
+    padding: 10px;
+    background-color: black;
+    color: white;   
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.container:hover {
+    background-color: bisque;
+
+}
